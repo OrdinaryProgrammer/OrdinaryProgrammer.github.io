@@ -1,0 +1,115 @@
+body{
+   box-sizing: border-box;
+   background-image: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #555555;
+    background-position: center;
+}
+
+.box1{
+   background-image: url("../image/con\ bcg.jpg");
+   color:violet;
+}
+.box1 h1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+   font-weight: bolder;
+   font-style: italic;
+   letter-spacing: 0.3em;
+   text-align: center;
+}
+
+button{
+   background-color: rgb(104, 192, 250);
+   color: #555555;
+   padding: 10px 15px;
+
+}
+button:hover{
+   background-color:yellow;
+}
+
+button:active{
+   background-color: aquamarine;
+}
+
+a{
+   text-decoration: none;
+   color:rgb(3, 59, 41);
+}
+
+a:hover{
+   color:black;
+}
+
+a:visited{
+   color: grey;
+}
+
+.clearfix{
+   clear: both;
+}
+
+.container{
+   background-color: antiquewhite;
+   width: 90%;
+   margin: auto
+}
+
+
+.list1 {
+   list-style-image: url(../image/Android.jpg);
+}
+
+.list2 {
+   list-style-image: url(../image/ios.jpg);
+
+}
+.block{
+   float: left;
+   width: 33.3%;
+   height: 110px;
+   border: 3px outset rgb(212, 177, 212);
+   box-sizing: border-box;
+   
+}
+
+#main-block{
+   float: right;
+   width: 70%;
+   box-sizing: border-box;
+   text-align: center;
+
+}
+
+#main-block h1{
+    color: azure;
+    font-family: fantasy;
+    font-family: KaiTi;
+}
+
+#sidebar h1{
+    color: azure;
+}
+
+#sidebar a{
+    color: rgb(236, 236, 186);
+}
+
+#main-block h2{
+   font-size: 20px;
+   font-weight: bold;
+   color:rgb(241, 206, 2);
+
+}
+
+#sidebar{
+   float: left;
+   width: 30%;
+   border: 1px double gray;
+   box-sizing: border-box;
+   border: 5px dotted black;
+   border-radius: 16px;
+   width: 30%;
+}
